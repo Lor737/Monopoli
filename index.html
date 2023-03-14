@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet", href="css/monopoli.css">
+    <link rel="stylesheet", href="css/riquadro_giro.css">
+    <link rel="stylesheet", href="css/riquadro_dadi.css">
+    <link rel="stylesheet", href="css/riquadro_leaderboard.css">
+    <link rel="stylesheet", href="css/riquadro_soldi_proprietà.css">
+    <link rel="stylesheet", href="css/regole.css">
+    <title>Monopoli gioco</title>
+  </head>
+  <body>
+  <div class="quadrato_sfondo" id = "quadrato_sfondo_id">
+          <div class="quadrato_in_mezzo">
+            <div class="probabilità_rettangolo"></div>
+            <div class="imprevisti_rettangolo"></div>
+            <img class="Rettangolo_Probabilità" src = "immagini/Rettangolo domande.png" width = "375px" height = "375px">
+            <img class="Rettangolo_Imprevisti" src = "immagini/Rettangolo domande.png" width = "375px" height = "375px">
+            <p class="Probabilità_su_Rettangolo">PROBABILITA'</p>
+            <p class="Imprevisti_su_Rettangolo">IMPREVISTI</p>
+            <img class="Monopoli" src = "immagini/Titolo Monopoli.png" width = "720px" height = "180px">
+            <p class="Scritte_sotto_Monopoli">MARCHIO REGISTRATO <br> COPYRIGHT © PARKER BROTHERS <br> LICENZA PARKER BROTHERS DIVISIONE DI KENNER PARKER TOYS INC.<br> MADE IN ITALY</p>
+            <p class="r">®</p>
+          </div>
+
+          <div class="mpoly-cell-angolo1"><img class="Posteggio" src = "immagini/posteggio immagine.png" width = "150px" height = "150px"> <p class="Posteggio_testo">POSTEGGIO</p> <p class="Posteggio_testo_sotto">GRATUITO</p> </div>
+          <div class="mpoly-cell-verticale1"> <div class="mpoly-rettangolorosso"></div> <p class="Via_Marco_Polo_testo">VIA<br>MARCO POLO<br> 550€</p> <p class="Via_Marco_Polo_testo_sotto">VIA<br>MARCO POLO<br>550€</p> </div>
+          <div class="mpoly-cell-verticale2"> <img class = "Imprevisti_sopra" src = "immagini/Imprevisti blu immagine.png"> <p class="Imprevisti_testo_sopra">IMPREVISTI</p> </div>
+          <div class="mpoly-cell-verticale3"> <div class="mpoly-rettangolorosso"></div> <p class="Corso_Magellano_testo">CORSO<br>MAGELLANO<br> 550€</p> <p class="Corso_Magellano_testo_sotto">CORSO<br>MAGELLANO<br>550€</p> </div>
+          <div class="mpoly-cell-verticale4"> <div class="mpoly-rettangolorosso"></div> <p class="Largo_Colombo_testo">LARGO<br>COLOMBO<br> 600€</p> <p class="Largo_Colombo_testo_sotto">LARGO<br>COLOMBO<br>600€</p> </div>
+          <div class="mpoly-cell-verticale5"> <img class = "StazioneNord" src = "immagini/Treno immagine.png"> <p class="StazioneNord_testo">STAZIONE NORD<br> 480€</p> <p class="StazioneNord_testo_sotto">STAZIONE NORD<br> 480€</p> </div>
+          <div class="mpoly-cell-verticale6"> <div class="mpoly-rettangologiallo"></div>  <p class="Viale_Costantino_testo">VIALE<br>COSTANTINO<br> 650€</p> <p class="Viale_Costantino_testo_sotto">VIALE<br>COSTANTINO<br>650€</p> </div>
+          <div class="mpoly-cell-verticale7"> <div class="mpoly-rettangologiallo"></div>  <p class="Viale_Traiano_testo">VIALE<br>TRAIANO<br> 650€</p> <p class="Viale_Traiano_testo_sotto">VIALE<br>TRAIANO<br>650€</p> </div>
+          <div class="mpoly-cell-verticale8"> <img class = "Società_acqua_potabile" src = "immagini/Società acqua potabile immagine.png" width = "100px" height = "65px">  <p class="Società_acqua_potabile_testo">SOCIETA'<br>ACQUA POTABILE</p> <p class="Società_acqua_potabile_testo_sotto">375€</p> </div>
+          <div class="mpoly-cell-verticale9"> <div class="mpoly-rettangologiallo"></div>  <p class="Piazza_Giulio_Cesare_testo">PIAZZA<br>GIULIO CESARE<br> 700€</p> <p class="Piazza_Giulio_Cesare_testo_sotto">PIAZZA<br>GIULIO CESARE<br>700€</p> </div>
+          <div class="mpoly-cell-angolo2"> <img class="In_prigione" src = "immagini/Prigione carabiniere immagine.png"> <p class="In_prigione_testo">IN <br> PRIGIONE!</p> </div>
+
+          <div class="mpoly-cell-orizzontale-sinistra1"> <div class="mpoly-rettangolomarrone"></div> <p class="Piazza_Dante_testo">PIAZZA<br>DANTE<br> 500€</p> <p class="Piazza_Dante_testo_sotto">PIAZZA<br>DANTE<br> 500€</p> </div>
+          <div class="mpoly-cell-orizzontale-destra1"> <div class="mpoly-rettangoloverde"></div> <p class="Via_Roma_testo">VIA<br>ROMA<br>750€</p> <p class="Via_Roma_testo_sotto">VIA<br>ROMA<br>750€</p> </div>
+
+          <div class="mpoly-cell-orizzontale-sinistra2"> <div class="mpoly-rettangolomarrone"></div> <p class="Corso_Raffaello_testo">CORSO<br>RAFFAELLO<br> 450€</p> <p class="Corso_Raffaello_testo_sotto">CORSO<br>RAFFAELLO<br> 450€</p> </div>
+          <div class="mpoly-cell-orizzontale-destra2"> <div class="mpoly-rettangoloverde"></div> <p class="Corso_Impero_testo">CORSO<br>IMPERO<br>750€</p> <p class="Corso_Impero_testo_sotto">CORSO<br>IMPERO<br>750€</p> </div>
+
+          <div class="mpoly-cell-orizzontale-sinistra3"> <img class = "Probabilità_sinistra" src = "immagini/Probabilità immagine.png"> <p class="Probabilità_testo_sinistra">PROBABILITA'</p> </div>
+          <div class="mpoly-cell-orizzontale-destra3"> <img class = "Probabilità_destra" src = "immagini/Probabilità immagine.png"> <p class="Probabilità_testo_destra">PROBABILITA'</p> </div>
+
+          <div class="mpoly-cell-orizzontale-sinistra4"> <div class="mpoly-rettangolomarrone"></div> <p class="Via_Verdi_testo">VIA<br>VERDI<br> 450€</p> <p class="Via_Verdi_testo_sotto">VIA<br>VERDI<br> 450€</p> </div>
+          <div class="mpoly-cell-orizzontale-destra4"> <div class="mpoly-rettangoloverde"></div> <p class="Largo_Augusto_testo">LARGO<br>AUGUSTO<br>800€</p> <p class="Largo_Augusto_testo_sotto">LARGO<br>AUGUSTO<br>800€</p> </div>
+
+          <div class="mpoly-cell-orizzontale-sinistra5"> <img class = "StazioneOvest" src = "immagini/Treno immagine.png"> <p class="StazioneOvest_testo">STAZIONE OVEST<br> 480€</p> <p class="StazioneOvest_testo_sotto">STAZIONE OVEST<br> 480€</p> </div>
+          <div class="mpoly-cell-orizzontale-destra5"> <img class = "StazioneEst" src = "immagini/Treno immagine.png"> <p class="StazioneEst_testo">STAZIONE EST<br> 480€</p> <p class="StazioneEst_testo_sotto">STAZIONE EST<br> 480€</p> </div>
+
+          <div class="mpoly-cell-orizzontale-sinistra6"> <div class="mpoly-rettangoloarancione"></div> <p class="Piazza_Università_testo">PIAZZA<br>UNIVERSITA'<br> 400€</p> <p class="Piazza_Università_testo_sotto">PIAZZA<br>UNIVERSITA'<br> 400€</p>  </div>
+          <div class="mpoly-cell-orizzontale-destra6"> <img class = "Imprevisti_destra" src = "immagini/Imprevisti arancione immagine.png" width = "65px" height = "100px"> <p class="Imprevisti_testo_destra">IMPREVISTI</p> </div>
+
+          <div class="mpoly-cell-orizzontale-sinistra7"> <div class="mpoly-rettangoloarancione"></div> <p class="Corso_Ateneo_testo">CORSO<br>ATENEO<br> 350€</p> <p class="Corso_Ateneo_testo_sotto">CORSO<br>ATENEO<br> 350€</p> </div>
+          <div class="mpoly-cell-orizzontale-destra7"> <div class="mpoly-rettangoloviola"></div> <p class="Viale_dei_Giardini_testo">VIALE<br>DEI GIARDINI<br>900€</p> <p class="Viale_dei_Giardini_testo_sotto">VIALE<br>DEI GIARDINI<br>900€</p> </div>
+
+          <div class="mpoly-cell-orizzontale-sinistra8"> <img class = "Società_elettrica" src = "immagini/Società Elettrica immagine.png" width = "100px" height = "65px">  <p class="Società_elettrica_testo">SOCIETA'<br>ELETTRICA</p> <p class="Società_elettrica_testo_sotto"> 375€</p> </div>
+          <div class="mpoly-cell-orizzontale-destra8"> <img class = "Tassa_di_Lusso" src = "immagini/Tassa di Lusso immagine.png" width = "65px" height = "100px"> <p class="Tassa_di_Lusso_testo">TASSA<br>DI LUSSO</p><p class="Tassa_di_Lusso_testo_sotto"> PAGARE <br> 250€ <p>  </div>
+
+          <div class="mpoly-cell-orizzontale-sinistra9"> <div class="mpoly-rettangoloarancione"></div>  <p class="Via_Accademia_testo">VIA<br>ACCADEMIA<br> 350€</p> <p class="Via_Accademia_testo_sotto">VIA<br>ACCADEMIA<br> 350€</p> </div>
+          <div class="mpoly-cell-orizzontale-destra9"> <div class="mpoly-rettangoloviola"></div> <p class="Parco_della_Vittoria_testo">PARCO<br>DELLA VITTORIA<br>1000€</p> <p class="Parco_della_Vittoria_testo_sotto">PARCO<br>DELLA VITTORIA<br>1000€</p> </div>
+
+          <div class="mpoly-cell-angolo3"> <img class="Prigione_Transito" src = "immagini/Prigione transito immagine.png"> <p class="Prigione_Transito_testo">PRIGIONE</p> <p class="Prigione_Transito_testo_sotto">TRANSITO</p> </div>
+          <div class="mpoly-cell-verticale10"> <div class="mpoly-rettangoloblu"></div> <p class="Viale_Vesuvio_testo">VIALE<br>VESUVIO<br> 300€</p> <p class="Viale_Vesuvio_testo_sotto">VIALE<br>VESUVIO<br> 300€</p> </div>
+          <div class="mpoly-cell-verticale11"> <div class="mpoly-rettangoloblu"></div> <p class="Viale_monterosa_testo">VIALE<br>MONTEROSA<br> 250€</p> <p class="Viale_monterosa_testo_sotto">VIALE<br>MONTEROSA<br> 250€</p> </div>
+          <div class="mpoly-cell-verticale12">  <img class = "Imprevisti_sotto" src = "immagini/imprevisti arancione immagine.png"> <p class="Imprevisti_testo_sotto">IMPREVISTI</p> </div>
+          <div class="mpoly-cell-verticale13">  <div class="mpoly-rettangoloblu"></div> <p class="Bastioni_gran_sasso_testo">BASTIONI<br>GRAN SASSO<br> 250€</p> <p class="Bastioni_gran_sasso_testo_sotto">BASTIONI <br> GRAN SASSO <br> 250€</p> </div>
+          <div class="mpoly-cell-verticale14"> <img class = "StazioneSud" src = "immagini/Treno immagine.png"><p class="StazioneSud_testo"> STAZIONE SUD <br> 480€ </p><p class="StazioneSud_testo_sotto"> STAZIONE SUD <br> 480€ </p> </div>
+          <div class="mpoly-cell-verticale15">  <p class="Tassa_Patrimoniale_testo">TASSA PATRIMONIALE</p><p class="Tassa_Patrimoniale_testo_sotto"> PAGARE <br> 500€ <p>  </div>
+          <div class="mpoly-cell-verticale16"> <div class="mpoly-rettangolofuxia"></div> <p class="Vicolo_Stretto_testo">VICOLO<br>STRETTO <br> 150€</p> <p class="Vicolo_Stretto_testo_sotto">VICOLO <br> STRETTO <br> 150€</p> </div>
+          <div class="mpoly-cell-verticale17"> <img class = "Probalità_sotto" src = "immagini/Probabilità immagine.png" width = "65px" height = "100px"> <p class="Probabilità_testo_sotto">PROBABILITA'</p> </div>
+          <div class="mpoly-cell-verticale18"> <div class="mpoly-rettangolofuxia"></div> <p class="Vicolo_Corto_testo">VICOLO <br> CORTO <br> 150 € </p> <p class="Vicolo_Corto_testo_sotto">VICOLO <br> CORTO <br> 150€</p>  </div>
+          <div class="mpoly-cell-angolo4"> <img class="Via" src = "immagini/VIA! immagine.png" width = "150px" height = "150px"> <p class="Via_testo">RITIRATE <br> AL PASSAGGIO <br> 500€</p> </div>
+  </div>
+
+  <div class = "riquadro_opzione_ruota">
+    <button class ="pulsante_gira_90" onclick="gira_a_90()">Stazione Est</button>
+    <button class ="pulsante_gira_180" onclick="gira_a_180()">Stazione Nord</button>
+    <button class ="pulsante_gira_270" onclick="gira_a_270()">Stazione Ovest</button>
+    <button class ="pulsante_gira_360" onclick="gira_a_0()">Stazione Sud</button>
+    <script src ="js/funzioni_gira.js" charset = "utf-8"></script>
+  </div>
+
+  <div class="riquadro_Leaderboard">
+    <p class="Titolo">Leaderboard</p>
+    <p class="Giocatore">Giocatore1 - 10.000€</p>
+    <p class="Giocatore">Giocatore2 - 5.000€</p>
+    <p class="Giocatore">Giocatore3 - 2000€</p>
+    <p class="Giocatore">Giocatore4 - 1500€</p>
+    <p class="Giocatore">Giocatore5 - 1200€</p>
+    <p class="Giocatore">Giocatore6 - 700€</p>
+  </div>
+
+<div class="riquadro_tiro_dadi">
+    <p class="Titolo">Lancio dei Dadi</p>
+  <div class="spazio_tiro_dadi">
+   <div class="Dado1" id="Dado1">
+    <div class="fronte"><img class="cerchio1"src="immagini/Dado/cerchio_1.png"></div>
+    <div class="dietro"><img class="cerchio"src="immagini/Dado/cerchio_6.png"></div>
+    <div class="sopra"><img class="cerchio"src="immagini/Dado/cerchio_3.png"></div>
+    <div class="sinistra"><img class="cerchio"src="immagini/Dado/cerchio_5.png"></div>
+    <div class="destra"><img class="cerchio"src="immagini/Dado/cerchio_2.png"></div>
+    <div class="sotto"><img class="cerchio"src="immagini/Dado/cerchio_4.png"></div>
+   </div>
+   <div class="Dado2" id = "Dado2">
+    <div class="fronte"><img class="cerchio1"src="immagini/Dado/cerchio_1.png"></div>
+    <div class="dietro"><img class="cerchio"src="immagini/Dado/cerchio_6.png"></div>
+    <div class="sopra"><img class="cerchio"src="immagini/Dado/cerchio_3.png"></div>
+    <div class="sinistra"><img class="cerchio"src="immagini/Dado/cerchio_5.png"></div>
+    <div class="destra"><img class="cerchio"src="immagini/Dado/cerchio_2.png"></div>
+    <div class="sotto"><img class="cerchio"src="immagini/Dado/cerchio_4.png"></div>
+   </div>
+ </div>
+    <button class ="pulsante_lancia" onclick="Lancia_dadi()">Lancia</button>
+    <script src ="js/funzione_lancia.js" charset = "utf-8"></script>
+  </div>
+
+  <button class ="Pulsante_regole"><a class="Regole" href="Regole.html">Regole del gioco</a></button>
+
+
+  <div class="riquadro_soldi_proprietà">
+    <p class="Titolo">Saldo: 10.000€</p>
+  </div>
+
+  </body>
+</html>
