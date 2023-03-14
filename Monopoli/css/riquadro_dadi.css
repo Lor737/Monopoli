@@ -1,0 +1,54 @@
+.riquadro_tiro_dadi
+{
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  left: 1400px;
+  top: 500px;
+  background-color: #CFFDE1;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+.Titolo
+{
+  position: relative;
+  font-size: 30px;
+  text-align: center;
+}
+.pulsante_lancia
+{
+  position:relative;
+  height: 50px;
+  width: 100px;
+  top:225px;
+  left:150px;
+}
+.Dado1
+{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 150px;
+  left: 75px;
+  display: inline-block;
+}
+.Dado2
+{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top:150px;
+  left:225px;
+  display: inline-block;
+}
+.img1
+{
+  width: 100px;
+  height: 100px;
+}
+.img2
+{
+  width: 100px;
+  height: 100px;
+}

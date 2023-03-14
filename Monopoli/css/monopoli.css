@@ -1,0 +1,407 @@
+.quadrato_sfondo
+{
+  position: absolute;    /*bordo angolo1: 2 + 150 + 2,  bordo 1°cella verticale: 110 + 2, .....bordo angolo2: 150 + 2 */
+  height: 1313px;        /*154 + 112*9 + 152 = 154 + 1008 +152 = 306 + 1008 = 1314*/
+  width: 1313px;
+  background-color: #CFFDE1;
+}
+.quadrato_in_mezzo
+{
+  position: absolute;
+  height: 1007.4px;
+  width: 1007.4px;
+  left: 152px;
+  top: 152px;
+  background-color: #CFFDE1;
+}
+/*_____________________________________________________________________________________________________________________
+Celle sinistra e destra*/
+.mpoly-cell-orizzontale-destra1
+{
+  position: absolute;top: 152px;left: 1160px;height: 110px;width: 150px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-orizzontale-sinistra1
+{
+  position: absolute;top: 152px;height: 110px;width: 150px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-orizzontale-destra2
+{
+  position: absolute;top: 264px;left: 1160px;height: 110px;width: 150px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-orizzontale-sinistra2
+{
+  position: absolute;top: 264px;height: 110px;width: 150px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-orizzontale-destra3
+{
+  position: absolute;top: 376px;left: 1160px;height: 110px;width: 150px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-orizzontale-sinistra3
+{
+  position: absolute;top: 376px;height: 110px;width: 150px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-orizzontale-destra4
+{
+  position: absolute;top: 488px;left: 1160px;height: 110px;width: 150px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-orizzontale-sinistra4
+{
+  position: absolute;top: 488px;height: 110px;width: 150px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-orizzontale-destra5
+{
+  position: absolute;top: 600px;left: 1160px;height: 110px;width: 150px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-orizzontale-sinistra5
+{
+  position: absolute;top: 600px;height: 110px;width: 150px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-orizzontale-destra6
+{
+  position: absolute;top: 712px;left: 1160px;height: 110px;width: 150px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-orizzontale-sinistra6
+{
+  position: absolute;top: 712px;height: 110px;width: 150px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-orizzontale-destra7
+{
+  position: absolute;top: 824px;left: 1160px;height: 110px;width: 150px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-orizzontale-sinistra7
+{
+  position: absolute;top: 824px;height: 110px;width: 150px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-orizzontale-destra8
+{
+  position: absolute;top: 936px;left: 1160px;height: 110px;width: 150px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-orizzontale-sinistra8
+{
+  position: absolute;top: 936px;height: 110px;width: 150px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-orizzontale-destra9
+{
+  position: absolute;top: 1048px;left: 1160px;height: 110px;width: 150px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-orizzontale-sinistra9
+{
+  position: absolute;top: 1048px;height: 110px;width: 150px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+/*____________________________________________________________________________________________________________________
+Celle in Alto*/
+.mpoly-cell-verticale1
+{
+  position: absolute;left: 152px;height:150px;width:  110px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-verticale2 /* +112 originale = 262*/
+{
+  position: absolute;left: 264px;height:150px;width:  110px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-verticale3 /* +112 originale = 372*/
+{
+  position: absolute;left: 376px;height:150px;width:  110px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-verticale4 /* +112 originale = 482*/
+{
+  position: absolute;left: 488px;height:150px;width:  110px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-verticale5  /* +112 originale = 592*/
+{
+  position: absolute;left: 600px;height:150px;width:  110px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-verticale6  /* +112 originale = 702*/
+{
+  position: absolute;left: 712px;height:150px;width:  110px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-verticale7 /* +112 originale = 812*/
+{
+  position: absolute;left: 824px;height:150px;width:  110px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-verticale8 /* +112 originale = 922*/
+{
+  position: absolute;left: 936px;height:150px;width:  110px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-verticale9 /* +112 originale = 1032*/
+{
+  position: absolute;left: 1048px;height:150px;width:  110px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+/*__________________________________________________________________________________________________________________
+Celle in basso */
+.mpoly-cell-verticale10
+{
+position: absolute;top:1160px;left: 152px;height:150px;width:  110px;background-color: #CFFDE1;border-style: solid;
+border-color: black;border-width: 2px;
+}
+.mpoly-cell-verticale11
+{
+position: absolute;top:1160px;left: 264px;height:150px;width:  110px;background-color: #CFFDE1;border-style: solid;
+border-color: black;border-width: 2px;
+}
+.mpoly-cell-verticale12
+{
+position: absolute;top:1160px;left: 376px;height:150px;width:  110px;background-color: #CFFDE1;border-style: solid;
+border-color: black;border-width: 2px;
+}
+.mpoly-cell-verticale13
+{
+position: absolute;top:1160px;left: 488px;height:150px;width:  110px;background-color: #CFFDE1;border-style: solid;
+border-color: black;border-width: 2px;
+}
+.mpoly-cell-verticale14
+{
+position: absolute;top:1160px;left: 600px;height:150px;width:  110px;background-color: #CFFDE1;border-style: solid;
+border-color: black;border-width: 2px;
+}
+.mpoly-cell-verticale15
+{
+position: absolute;top:1160px;left: 712px;height:150px;width:  110px;background-color: #CFFDE1;border-style: solid;
+border-color: black;border-width: 2px;
+}
+.mpoly-cell-verticale16
+{
+position: absolute;top:1160px;left: 824px;height:150px;width:  110px;background-color: #CFFDE1;border-style: solid;
+border-color: black;border-width: 2px;
+}
+.mpoly-cell-verticale17
+{
+position: absolute;top:1160px;left: 936px;height:150px;width:  110px;background-color: #CFFDE1;border-style: solid;
+border-color: black;border-width: 2px;
+}
+.mpoly-cell-verticale18
+{
+position: absolute;top:1160px;left: 1048px;height:150px;width:  110px;background-color: #CFFDE1;border-style: solid;
+border-color: black;border-width: 2px;
+}
+/*__________________________________________________________________________________________________________________
+Angoli */
+.mpoly-cell-angolo1
+{
+  position:absolute;height: 150px;width: 150px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-angolo2
+{
+  position:absolute;left: 1160px;height: 150px;width: 150px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-angolo3
+{
+  position:absolute;top: 1160px;height: 150px;width: 150px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+.mpoly-cell-angolo4
+{
+  position:absolute;top: 1160px;left: 1160px;height: 150px;width: 150px;background-color: #CFFDE1;border-style: solid;
+  border-color: black;border-width: 2px;
+}
+/*__________________________________________________________________________________________________________________
+Rettanoli colorati */
+.mpoly-rettangolofuxia
+{
+  position:absolute;height: 35px;width: 110px;background-color: #EE44DC;border-color: black;
+  border-bottom-width: 2px;border-bottom-style:solid;
+}
+.mpoly-rettangoloblu
+{
+  position:absolute;height: 35px;width: 110px;background-color: #0075FF;border-color: black;
+  border-bottom-width: 2px;border-bottom-style:solid;
+}
+.mpoly-rettangoloarancione
+{
+  position:absolute;height: 110px;width: 35px;background-color: #E9771E;right:0px;border-color: black;
+  border-left-width: 2px;border-left-style:solid;
+}
+.mpoly-rettangolomarrone
+{
+  position:absolute;height: 110px;width: 35px;background-color: #6E3F15;right:0px;border-color: black;
+  border-left-width: 2px;border-left-style:solid;border
+}
+.mpoly-rettangolorosso
+{
+  position:absolute;height: 35px;width: 110px;background-color: #ED1C24;bottom:0px;border-color: black;
+  border-top-width: 2px;border-top-style:solid;
+}
+.mpoly-rettangologiallo
+{
+  position:absolute;height: 35px;width: 110px;background-color: #FFFF00;bottom:0px;border-color: black;
+  border-top-width: 2px;border-top-style:solid;
+}
+.mpoly-rettangoloverde
+{
+  position:absolute;height: 110px;width: 35px;background-color: #008000;border-color: black;
+  border-right-width: 2px;border-right-style:solid;
+}
+.mpoly-rettangoloviola
+{
+  position:absolute;height: 110px;width: 35px;background-color: #993399;border-color: black;
+  border-right-width: 2px;border-right-style: solid;
+}
+/*__________________________________________________________________________________________________________________
+IMMAGINI */
+
+/* STAZIONI*/
+.StazioneSud
+{position:absolute; height: 72px;width: 80px;right:13px;top:42px;}
+.StazioneOvest
+{position:absolute; height: 68px;width: 80px;right:37px;top:23px;rotate:90deg;}
+.StazioneNord
+{position:absolute; height: 72px;width: 80px;right:13px;top:37px;rotate:180deg;}
+.StazioneEst
+{position:absolute; height: 68px;width: 80px;right:33px;top:23px;rotate:270deg;}
+/*  ANGOLI */
+.Via
+{rotate: 270deg;}
+.Posteggio
+{position:absolute;rotate: 90deg;height: 110px;width: 110px;right:22px;top:17px;}
+.In_prigione
+{position:absolute; height: 100px;width: 100px;rotate: 225deg;right:23px;top:23px;}
+.Prigione_Transito
+{position:absolute; height: 125px;width: 125px;rotate:90deg;right:-2px;top:-1.67px;}
+
+/*IMPREVISTI E PROBABILITA' */
+.Imprevisti_sotto
+{position:absolute; height: 87%;width: 75%;right:13px;top:19px;}
+.Probalità_sotto
+{position:absolute; height: 90px;width: 97px;right:4px;top:50px;}
+.Probabilità_sinistra
+{position:absolute; height: 85px;width: 90px;right:45px;top:15px;rotate:90deg;}
+.Imprevisti_sopra
+{position:absolute; height: 87%;width: 75%;right:13px;top:4px;rotate:180deg;}
+.Probabilità_destra
+{position:absolute; height: 85px;width: 90px;right:10px;top:10px;rotate:270deg;}
+.Imprevisti_destra
+{position:absolute; height: 126px;width: 76px;right:27px;top:-9px;rotate:270deg;}
+
+/*TASSA PER SERVIZI*/
+.Società_elettrica
+{position:absolute; height: 100px;width: 60px;right:55px;top:5px;rotate:90deg;}
+.Società_acqua_potabile
+{position:absolute; height: 70px;width: 95px;right:10px;top:30px;rotate:180deg;}
+.Tassa_di_Lusso
+{position:absolute; height: 68px;width: 80px;right:25px;top:20px;rotate:270deg;}
+
+/* Font */
+p {
+  position:relative;
+  font-family: 'Questrial', sans-serif;
+  font-weight: bold;
+}
+
+.Via_testo {top: -150px;left:-40px;text-align: center;font-size: 10px;line-height: 1.5;rotate:315deg}
+
+.Vicolo_Corto_testo {top: 30px;text-align: center;font-size: 10px;line-height: 1.5;}
+.Vicolo_Corto_testo_sotto {top: 36px;text-align: center;font-size: 10px;line-height: 1.5;rotate:180deg}
+.Probabilità_testo_sotto {top: 12px;font-size: 12px;text-align: center;}
+.Vicolo_Stretto_testo {top: 30px;text-align: center;font-size: 10px;line-height: 1.5;}
+.Vicolo_Stretto_testo_sotto {top: 36px;text-align: center;font-size: 10px;line-height: 1.5;rotate:180deg}
+.Tassa_Patrimoniale_testo {top: 5px;font-size: 12px;text-align: center;}
+.Tassa_Patrimoniale_testo_sotto {top: 72px;font-size: 10px;text-align: center;}
+.StazioneSud_testo {top: 0px;text-align: center;font-size: 10px;line-height: 1.5;}
+.StazioneSud_testo_sotto {top: 67px;text-align: center;font-size: 10px;line-height: 1.5;rotate:180deg}
+.Bastioni_gran_sasso_testo {top: 30px;text-align: center;font-size: 10px;line-height: 1.5;}
+.Bastioni_gran_sasso_testo_sotto {top: 36px;text-align: center;font-size: 10px;line-height: 1.5;rotate:180deg}
+.Imprevisti_testo_sotto {top: -6px;font-size: 12px;text-align: center;letter-spacing: 2px;}
+.Viale_monterosa_testo {top: 30px;text-align: center;font-size: 10px;line-height: 1.5;}
+.Viale_monterosa_testo_sotto {top: 36px;text-align: center;font-size: 10px;line-height: 1.5;rotate:180deg}
+.Viale_Vesuvio_testo {top: 30px;text-align: center;font-size: 10px;line-height: 1.5;}
+.Viale_Vesuvio_testo_sotto {top: 36px;text-align: center;font-size: 10px;line-height: 1.5;rotate:180deg}
+
+.Prigione_Transito_testo {top: 80px;left:-20px;text-align: center;font-size: 10px;line-height: 1.5;rotate:45deg}
+.Prigione_Transito_testo_sotto {top: 87px;left:-55px;text-align: center;font-size: 10px;line-height: 1.5;rotate:45deg}
+
+.Via_Accademia_testo {top: 20px;right:-14px;text-align: center;font-size: 10px;line-height: 1.5;rotate:90deg}
+.Via_Accademia_testo_sotto {top: -37px;left: -49px;text-align: center;font-size: 10px;line-height: 1.5;rotate:270deg}
+.Società_elettrica_testo {top: 30px;left: 53px;font-size: 12px;text-align: center;rotate:90deg}
+.Società_elettrica_testo_sotto {top: -5px;left: -65px;font-size: 10px;text-align: center;rotate:90deg}
+.Corso_Ateneo_testo {top: 20px;right:-14px;text-align: center;font-size: 10px;line-height: 1.5;rotate:90deg}
+.Corso_Ateneo_testo_sotto {top: -37px;left: -49px;text-align: center;font-size: 10px;line-height: 1.5;rotate:270deg}
+.Piazza_Università_testo {top: 20px;right:-14px;text-align: center;font-size: 10px;line-height: 1.5;rotate:90deg}
+.Piazza_Università_testo_sotto {top: -37px;left: -49px;text-align: center;font-size: 10px;line-height: 1.5;rotate:270deg}
+.StazioneOvest_testo {top: 30px;left: 50px;text-align: center;font-size: 10px;line-height: 1.5;rotate:90deg}
+.StazioneOvest_testo_sotto {top: -10px;left: -57px;text-align: center;font-size: 10px;line-height: 1.5;rotate:270deg}
+.Via_Verdi_testo {top: 20px;right:-14px;text-align: center;font-size: 10px;line-height: 1.5;rotate:90deg}
+.Via_Verdi_testo_sotto {top: -37px;left: -49px;text-align: center;font-size: 10px;line-height: 1.5;rotate:270deg}
+.Probabilità_testo_sinistra {top: 32px;left: 48px;font-size: 12px;text-align: center;rotate:90deg}
+.Corso_Raffaello_testo {top: 20px;right:-14px;text-align: center;font-size: 10px;line-height: 1.5;rotate:90deg}
+.Corso_Raffaello_testo_sotto {top: -37px;left: -49px;text-align: center;font-size: 10px;line-height: 1.5;rotate:270deg}
+.Piazza_Dante_testo {top: 20px;right:-14px;text-align: center;font-size: 10px;line-height: 1.5;rotate:90deg}
+.Piazza_Dante_testo_sotto {top: -37px;left: -49px;text-align: center;font-size: 10px;line-height: 1.5;rotate:270deg}
+
+.Posteggio_testo {top: 103px;left:46px;text-align: center;font-size: 10px;line-height: 1.5;rotate:135deg}
+.Posteggio_testo_sotto {top: -17px;left:-48px;text-align: center;font-size: 10px;line-height: 1.5;rotate:135deg}
+
+.Via_Marco_Polo_testo {top: -5px;text-align: center;font-size: 10px;line-height: 1.5;}
+.Via_Marco_Polo_testo_sotto {bottom: 0px;text-align: center;font-size: 10px;line-height: 1.5;rotate:180deg}
+.Imprevisti_testo_sopra {top: 120px;font-size: 12px;text-align: center;letter-spacing: 2px;rotate:180deg}
+.Corso_Magellano_testo {top: -5px;text-align: center;font-size: 10px;line-height: 1.5;}
+.Corso_Magellano_testo_sotto {bottom: 0px;text-align: center;font-size: 10px;line-height: 1.5;rotate:180deg}
+.Largo_Colombo_testo {top: -5px;text-align: center;font-size: 10px;line-height: 1.5;}
+.Largo_Colombo_testo_sotto {bottom: 0px;text-align: center;font-size: 10px;line-height: 1.5;rotate:180deg}
+.StazioneNord_testo {top: -5px;text-align: center;font-size: 10px;line-height: 1.5;}
+.StazioneNord_testo_sotto {top: 62px;text-align: center;font-size: 10px;line-height: 1.5;rotate:180deg}
+.Viale_Costantino_testo {top: -5px;text-align: center;font-size: 10px;line-height: 1.5;}
+.Viale_Costantino_testo_sotto {bottom: 0px;text-align: center;font-size: 10px;line-height: 1.5;rotate:180deg}
+.Viale_Traiano_testo {top: -5px;text-align: center;font-size: 10px;line-height: 1.5;}
+.Viale_Traiano_testo_sotto {bottom: 0px;text-align: center;font-size: 10px;line-height: 1.5;rotate:180deg}
+.Società_acqua_potabile_testo {top: 100px;font-size: 12px;text-align: center;rotate:180deg}
+.Società_acqua_potabile_testo_sotto {top: -45px;font-size: 10px;text-align: center;rotate:180deg}
+.Piazza_Giulio_Cesare_testo {top: -5px;text-align: center;font-size: 10px;line-height: 1.5;}
+.Piazza_Giulio_Cesare_testo_sotto {bottom:0px;text-align: center;font-size: 10px;line-height: 1.5;rotate:180deg}
+
+.In_prigione_testo {top: 100px;left:-50px;text-align: center;font-size: 10px;line-height: 1.5;rotate:225deg}
+
+.Via_Roma_testo {top: 20px;left:-14px;text-align: center;font-size: 10px;line-height: 1.5;rotate:270deg}
+.Via_Roma_testo_sotto {top: -34px;left:49px;text-align: center;font-size: 10px;line-height: 1.5;rotate:90deg}
+.Corso_Impero_testo {top: 20px;left:-14px;text-align: center;font-size: 10px;line-height: 1.5;rotate:270deg}
+.Corso_Impero_testo_sotto {top: -34px;left:49px;text-align: center;font-size: 10px;line-height: 1.5;rotate:90deg}
+.Probabilità_testo_destra {top: 32px;left: -48px;font-size: 12px;text-align: center;rotate:270deg}
+.Largo_Augusto_testo {top: 20px;left:-14px;text-align: center;font-size: 10px;line-height: 1.5;rotate:270deg}
+.Largo_Augusto_testo_sotto {top: -34px;left:49px;text-align: center;font-size: 10px;line-height: 1.5;rotate:90deg}
+.StazioneEst_testo {top: 30px;left: -50px;text-align: center;font-size: 10px;line-height: 1.5;rotate:270deg}
+.StazioneEst_testo_sotto {top: -10px;left: 57px;text-align: center;font-size: 10px;line-height: 1.5;rotate:90deg}
+.Imprevisti_testo_destra {top: 35px;left:-60px;font-size: 12px;text-align: center;letter-spacing: 2px;rotate:270deg}
+.Viale_dei_Giardini_testo {top: 20px;left:-14px;text-align: center;font-size: 10px;line-height: 1.5;rotate:270deg}
+.Viale_dei_Giardini_testo_sotto {top: -34px;left:49px;text-align: center;font-size: 10px;line-height: 1.5;rotate:90deg}
+.Tassa_di_Lusso_testo {top: 27px;left:-45px;font-size: 12px;text-align: center;rotate:270deg}
+.Tassa_di_Lusso_testo_sotto {top: -10px;left:60px;font-size: 10px;text-align: center;rotate:270deg}
+.Parco_della_Vittoria_testo {top: 20px;left:-14px;text-align: center;font-size: 10px;line-height: 1.5;rotate:270deg}
+.Parco_della_Vittoria_testo_sotto {top: -34px;left:49px;text-align: center;font-size: 10px;line-height: 1.5;rotate:90deg}
+
+/*PROBABILITA' E IMPREVISTI*/
+.Rettangolo_Probabilità{position:relative;top: 20px;left:30px;rotate:-45deg}
+.Rettangolo_Imprevisti{position:relative;top: 600px;left:215px;rotate:-45deg}
+.Probabilità_su_Rettangolo{position:relative;top: 155px;left:-505px;font-size: 25px;rotate:135deg}
+.Imprevisti_su_Rettangolo{position:relative;top: -70px;left:515px;font-size: 25px;rotate:-45deg}
+
+/*MONOPOLI*/
+.Monopoli{position: relative;top: -120px;left:160px;font-size: 100px;}
+.Scritte_sotto_Monopoli{position: relative;top: -150px;left:0px;text-align: center;font-size: 9px;}
+.r{position: relative;top: -320px;left:845px;font-size: 15px;}
